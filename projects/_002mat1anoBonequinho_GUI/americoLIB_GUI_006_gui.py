@@ -1,10 +1,8 @@
 #!/usr/bin/python
-
 #**************************
 import tkinter as tk
 from tkinter import messagebox
 import sys
-
 
 #create class ****************************************************
 class simpleapp_tk(tk.Tk):
@@ -125,8 +123,7 @@ class simpleapp_tk(tk.Tk):
             #FOCUS
             self.entry.focus_set()
             self.entry.selection_range(0, tk.END)
-
-    
+ 
 #**************************   
 if __name__ == "__main__":
     app = simpleapp_tk(None)
